@@ -7,5 +7,6 @@ machine, but it should not matter much.
 2. Compile the program with `go build`
 3. Copy the binary file to a directory of your choice
 (typically `/usr/local/bin`).
-4. Ensure permissions is set correctly (typically umask `755`)
+4. Ensure permissions is set correctly (typically umask `755`) and system `PATH`
+variable is set correctly.
 5. Run the program with `repometrics <REPOSITORY_DIRECTORY>`
